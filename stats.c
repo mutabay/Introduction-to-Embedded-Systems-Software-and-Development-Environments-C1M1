@@ -41,3 +41,50 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_array( unsigned char * data , int dataLength )
+{
+	/*
+		Implementation
+	*/
+
+}
+
+
+int find_median( unsigned char * sortedData , int dataLength )
+{
+
+	/*
+		Implementation
+	*/
+}
+
+
+int find_mean( unsigned char * data , int dataLength )
+{
+	/*
+		Implementation
+	*/
+}
+
+
+int find_maximum( unsigned char * data , int dataLength )
+{
+	/*
+		Implementation
+	*/
+}
+
+int find_minimum( unsigned char * data , int dataLength )
+{
+	/*
+		Implementation
+	*/
+}
+
+unsigned char * sort_array( unsigned char * data , int dataLength )
+{
+	/*
+		Implementation
+	*/
+}

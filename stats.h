@@ -25,18 +25,102 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+
+void print_array( unsigned char * data , int dataLength );
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief Prints data array 
  *
- * <Add Extended Description Here>
+ * Given an array of data and a length, prints the array to the screen.
+ * Function uses a loop and prints the array.
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param unsigned char * data - Input is the data array 
+ * @param int dataLength  - Input is length of the data array
+
+ * @return Nothing. Because does not have to return anything. It just print an array.
+ */
+
+
+
+int find_median( unsigned char * sortedData , int dataLength );
+
+/**
+ * @brief Finds data's median value.
  *
- * @return <Add Return Informaiton here>
+ * Given an sorted array of data and a length, returns the median value
+ * Function takes sorted data. If data length is odd number then median 
+ * is in the middle of sorted array. If data length is not odd then 
+ * median is the mean of middle data. 
+ *
+ * @param unsigned char * data - Input is the data array 
+ * @param int dataLength  - Input is length of the data array
+
+ * @return Median value which is integer type(Rounded value).
  */
                                          
+
+
+
+int find_mean( unsigned char * data , int dataLength );
+
+/**
+ * @brief Finds data's mean value.
+ *
+ * Given an array of data and a length, returns the mean.
+ * Mean is the sum of data divided the data length.
+ *
+ * @param unsigned char * data - Input is the data array 
+ * @param int dataLength  - Input is length of the data array
+
+ * @return Mean which is integer type(Rounded value).
+ */
+                                         
+
+
+
+int find_maximum( unsigned char * data , int dataLength );
+/**
+ * @brief Finds the maximum value in the data.
+ *
+ *  Given an array of data and a length, returns the maximum.
+ *	For find the maximum value we will use the linear search.
+ *
+ * @param unsigned char * data - Input is the data array 
+ * @param int dataLength  - Input is length of the data array
+
+ * @return Maximum value which is integer type.
+ */
+
+
+
+
+int find_minimum( unsigned char * data , int dataLength );
+/**
+ * @brief Finds the minimum value in the data.
+ *
+ *  Given an array of data and a length, returns the minimum.
+ *  For find the minimum value we will use the linear search.
+ *
+ * @param unsigned char * data - Input is the data array 
+ * @param int dataLength  - Input is length of the data array
+
+ * @return Minimum value which is integer type.
+ */
+
+
+
+unsigned char * sort_array( unsigned char * data , int dataLength );
+/**
+ * @brief Sorts largest to smalleset.
+ *
+ *  Given an array of data and a length, sorts the array from largest 
+ *  to smallest. (The zeroth Element should be the largest value, 
+ *  and the last element (n-1) should be the smallest value. )
+ *	We will use buble sort method.
+ *
+ * @param unsigned char * data - Input is the data array 
+ * @param int dataLength  - Input is length of the data array
+
+ * @return Array which is sorted and unsigned char type.
+ */
+#endif /* __STATS_H__ */
