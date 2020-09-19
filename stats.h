@@ -42,7 +42,7 @@ void print_array( unsigned char * data , int dataLength );
 
 
 
-int find_median( unsigned char * sortedData , int dataLength );
+unsigned char find_median( unsigned char * sortedData , int dataLength );
 
 /**
  * @brief Finds data's median value.
@@ -61,7 +61,7 @@ int find_median( unsigned char * sortedData , int dataLength );
 
 
 
-int find_mean( unsigned char * data , int dataLength );
+unsigned char find_mean( unsigned char * data , int dataLength );
 
 /**
  * @brief Finds data's mean value.
@@ -78,7 +78,7 @@ int find_mean( unsigned char * data , int dataLength );
 
 
 
-int find_maximum( unsigned char * data , int dataLength );
+unsigned find_maximum( unsigned char * data , int dataLength );
 /**
  * @brief Finds the maximum value in the data.
  *
@@ -94,7 +94,7 @@ int find_maximum( unsigned char * data , int dataLength );
 
 
 
-int find_minimum( unsigned char * data , int dataLength );
+unsigned char find_minimum( unsigned char * data , int dataLength );
 /**
  * @brief Finds the minimum value in the data.
  *
@@ -109,7 +109,7 @@ int find_minimum( unsigned char * data , int dataLength );
 
 
 
-unsigned char * sort_array( unsigned char * data , int dataLength );
+void sort_array( unsigned char * data , int dataLength );
 /**
  * @brief Sorts largest to smalleset.
  *
@@ -123,4 +123,21 @@ unsigned char * sort_array( unsigned char * data , int dataLength );
 
  * @return Array which is sorted and unsigned char type.
  */
+
+void swap( unsigned char * firstItem , unsigned char * secondItem );
+/**
+ * @brief Swaps two unsigned char .
+ *
+ *  Swaps two unsigned char accessing adresses of items. It is called
+ *  pass by reference.
+ *
+ * @param unsigned char * firstItem - first element to swapped 
+ * @param unsigned char * secondItem  - second element to swapped
+
+ * @return Nothing. Because does not have to return anything.
+ */
+
+
+
+
 #endif /* __STATS_H__ */
