@@ -10,7 +10,6 @@
 #
 ###*****************************************************************************
 
-### The repository is organized in multiple folders:
 ###      stats.c -> Source file of the statistical analytics program in c programming.
 ###      stats.h -> Header file of the statistical analytics program.
 
