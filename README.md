@@ -1,6 +1,8 @@
   GNU nano 4.8                                                     README.md                                                      Modified  
+  
+  Introduction to Embedded Systems Software and Development Environments C1M1
 ###******************************************************************************
-# Copyright (C) 2020 by Mustafa Tayyip BAYRAM 
+# Copyright (C) 2020 by Mustafa Tayyip BAYRAM  
 # 
 # stats program analyze an array of unsigned char data items and report analytics on the maximum, 
 # minimum, mean, and median of the data set. In addition, it will reorder this data set from large to small.
