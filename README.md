@@ -1,5 +1,7 @@
   GNU nano 4.8                                                     README.md                                                      Modified  
-  
+
+In this programming assignment you will create a simple application that performs statistical analytics on a dataset. This assignment will help you get re-oriented with c-programming syntax and host machine compilation. We begin by setting up a version control repository on your local machine. You will then develop and test your code there. When complete, you will upload a zip of your repository to Coursera. Please read through all instructions before starting.
+
   Introduction to Embedded Systems Software and Development Environments C1M1
 ###******************************************************************************
 # Copyright (C) 2020 by Mustafa Tayyip BAYRAM  
@@ -14,5 +16,6 @@
 
 ###      stats.c -> Source file of the statistical analytics program in c programming.
 ###      stats.h -> Header file of the statistical analytics program.
+
 
 
